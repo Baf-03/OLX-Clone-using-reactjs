@@ -1,0 +1,109 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+header{
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke ;
+    position: sticky;
+    top: 10px;
+    
+}
+.mycontainer{
+    width: 80%;
+    /* background-color: aqua; */
+    
+}
+.prenavbar{
+    display: flex;
+    justify-content: start;
+    gap:2%;
+    padding-top: 1%;
+}
+
+.preNav_elements{
+    /* padding: 10px 10px; */
+    /* border: 1px solid black; */
+display: flex;
+
+   gap: 5px;
+   align-items: center; 
+
+}
+.navlogo{
+    width: 2vw;
+}
+
+.icon{
+    padding:5px 5px;
+    background-color: whitesmoke; 
+    /* border: 1px solid black; */
+    border-radius: 50%;
+}
+.navbar{
+    display: flex;
+    justify-content: start;
+    flex-wrap: nowrap;
+    padding-top: 2%;
+    gap: 2.5%;
+
+}
+.navlogomain{
+    width: 4vw;
+}
+.location_search{
+    display: flex;
+    border: 2px solid black;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+.country_search{
+    background-color: whitesmoke; 
+    margin-left: 10px;
+    outline: none; 
+    border: 1px solid transparent;
+  
+}
+.country_search:focus{
+    outline: none; 
+    border: 1px solid transparent;
+}
+.product_search{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    padding: 0px 0px;
+    border-radius: 10px;
+    width: 60%;
+}
+.product_search_input{
+    background-color: whitesmoke; 
+    padding: 10px 10px;
+    width: 100%;
+    /* background-color: aqua; */
+    margin-left: 10px;
+    outline: none; 
+    border: 1px solid transparent;
+    
+}
+.black_search{
+    padding: 12px 10px;
+    background-color: black;
+    color: white;
+    height: 100%;
+}
+
+.parentsell{
+    position: relative;
+}
+.childsell{
+    position: absolute;
+    top:30%;
+    left: 30%;
+    font-weight: bold;
+}
