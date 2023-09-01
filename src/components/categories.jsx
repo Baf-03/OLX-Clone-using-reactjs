@@ -8,40 +8,64 @@ const Categories =()=>{
 
     return(
         <>
-           <section className='parent_categories'>
-                <section className='mycategories_container'>
-                    
-                   <Elements
+           <section className='container mt-2'>
+                
+                <nav class="navbar navbar-expand-lg p-0 m-0">
+                <div class="container-fluid ">
+    
+                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                 </button>
+
+                <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                    <div class="navbar-nav m-0 p-0">
+
+                <Elements
                    name="All Categories"
                    icon="true"
                   
                    />
-                    <Elements
+        <Elements
+                   name="All Categories"
+                   icon="true"
+                  
+                   />
+         <Elements
                    name="Mobile Phones"
                    icon="false"
-                   />
-                    <Elements
+        />
+        <Elements
                    name="Cars"
                    icon="false"
-                   />
-                    <Elements
+        />
+        <Elements
                    name="Motorcycles"
                    icon="false"
-                   />
-                    <Elements
+        />
+        <Elements
                    name="Houses"
                    icon="false"
-                   />
-                   <Elements
+        />
+         <Elements
                    name="TV-Video-Audio"
                    icon="false"
-                   />
-                    <Elements
+        />
+        <Elements
                    name="Lands & Plots"
                    icon="false"
-                   />
+        />
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
 
-                </section>
+
+   
+      </div>
+    </div>
+  </div>
+</nav>
+                   
+                   
+
+            
            </section>
         </>
     )

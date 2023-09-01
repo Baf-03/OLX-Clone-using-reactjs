@@ -9,7 +9,7 @@ const Elements = (props) => {
     
 
     return (
-        <div>
+        <div className='nav-link active'>
             {props.name}
             {props.icon ==="true"? (
                 <FontAwesomeIcon icon={faAngleDown} />

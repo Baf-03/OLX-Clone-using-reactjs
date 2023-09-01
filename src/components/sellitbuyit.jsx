@@ -6,12 +6,12 @@ const Sell =()=>{
 
 
     return(
-        <section className="container_sell">
+        <section className="container  container_sell">
             <div className="sub_Sell_container">
                 <img src={sell} alt="Sell It Buy It" className="imgbuysell"/>
             </div>
             <div className="ad">
-            <img src={ad} alt="Sell It Buy It" className="imgbuysell"/>
+            <img src={ad} alt="Sell It Buy It" className="imgbuysellad"/>
             </div>
         </section>
     )

@@ -17,14 +17,14 @@ const Navbar =()=>{
     return(
         <>
             <header>
-            <nav className='mycontainer'>
+            <nav className='container'>
                 <section className='prenavbar'>
                     <div ><img src={olx} alt="My Image" className='navlogo'/></div>
                     <div className='preNav_elements'><FontAwesomeIcon icon={faCar} className="icon"/> Motors</div>
                     <div className='preNav_elements'> <FontAwesomeIcon icon={faBuilding} className="icon"/> property</div>
                     
                 </section>
-                <section className='navbar'>
+                <section className='navbar1'>
                    <section><img src={olxlogo} alt="My Image" className='navlogomain'/></section>
                    <section className='location_search'>
                         <div><FontAwesomeIcon icon={faMagnifyingGlass} /></div>
