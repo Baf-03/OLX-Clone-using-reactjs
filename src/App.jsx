@@ -20,6 +20,14 @@ import property from "./assets/property.png";
 import books from "./assets/books.png";
 import logoblocks from "./assets/logoblocks.png";
 import bike from "./assets/bike.png";
+import product2 from "./assets/product2.png";
+import product3 from "./assets/products3.png";
+import product4 from "./assets/product3.png";
+import OlxMarketing from "./components/olxmarketing";
+import Footer from "./components/footer";
+
+
+
 
 function App() {
   const pubgValue = "Some Value";
@@ -102,40 +110,98 @@ function App() {
           </div>
         </div>
       </section>
-      {/* ------------------------------------products Section----------------------------------- */}
+      {/* ------------------------------------lands and plots Section----------------------------------- */}
 
-      <section className="container mt-5">
+      <div className="container mt-5">
+        <h1>Products Section</h1>
+      </div>
+
+      <section className="container mt-3">
         <div className="productssection ">
+          
           <div>
             {" "}
-            <Products name={chair} title="naya ghar" about="naram naram" />
+            <Products name="https://venturebeat.com/wp-content/uploads/2023/05/AdobeStock_573239156-1.jpeg?fit=1208%2C691&strip=all" title="title" about="props pass howe hain yahan pr" />
           </div>
 
           <div>
             {" "}
-            <Products name={chair} title="naya ghar" about="naram naram" />
+            <Products name="https://www.publicissapient.com/content/dam/ps-rebrand/insights/2023/ret-insights-chatgpt/Hero-2880.jpg" title="title" about="props pass howe hain yahan pr" />
           </div>
 
           <div>
             {" "}
-            <Products name={chair} title="naya ghar" about="naram naram" />
+            <Products name="https://scanbot.io/wp-content/uploads/2023/04/AdobeStock_576347326-scaled.jpeg" title="title" about="props pass howe hain yahan pr" />
           </div>
 
           <div>
             {" "}
-            <Products name={chair} title="naya ghar" about="naram naram" />
+            <Products name="https://ik.imgkit.net/3vlqs5axxjf/PCWW/uploadedImages/Articles/Interviews/2023/June/amadeus%20ai%20insights.jpeg?tr=w-1200%2Cfo-auto" title="title" about="props pass howe hain yahan pr" />
           </div>
 
           <div>
             {" "}
-            <Products name={chair} title="naya ghar" about="naram naram" />
+            <Products name="https://venturebeat.com/wp-content/uploads/2023/05/AdobeStock_573239156-1.jpeg?fit=1208%2C691&strip=all" title="title" about="props pass howe hain yahan pr" />
           </div>
 
           <div>
             {" "}
-            <Products name={chair} title="naya ghar" about="naram naram" />
+            <Products name="https://www.publicissapient.com/content/dam/ps-rebrand/insights/2023/ret-insights-chatgpt/Hero-2880.jpg" title="title" about="props pass howe hain yahan pr" />
           </div>
+
+          <div>
+            {" "}
+            <Products name="https://scanbot.io/wp-content/uploads/2023/04/AdobeStock_576347326-scaled.jpeg" title="title" about="props pass howe hain yahan pr" />
+          </div>
+
+          <div>
+            {" "}
+            <Products name="https://ik.imgkit.net/3vlqs5axxjf/PCWW/uploadedImages/Articles/Interviews/2023/June/amadeus%20ai%20insights.jpeg?tr=w-1200%2Cfo-auto" title="title" about="props pass howe hain yahan pr" />
+          </div>
+          
         </div>
+      </section>
+
+
+
+        {/* ------------------------------------products Section----------------------------------- */}
+
+        <div className="container mt-5">
+        <h1>Lands and Plots</h1>
+      </div>
+
+      <section className="container mt-3">
+        <div className="productssection ">
+          
+          <div>
+            {" "}
+            <Products name="https://img.freepik.com/premium-photo/3d-land-with-mountain-isolated-piece-earth-land-green-field-generate-ai_39665-1054.jpg?w=2000" title="title" about="props pass howe hain yahan pr" />
+          </div>
+          <div>
+            {" "}
+            <Products name="https://img.freepik.com/premium-photo/3d-land-with-mountain-isolated-piece-earth-land-green-field-generate-ai_39665-1054.jpg?w=2000" title="title" about="props pass howe hain yahan pr" />
+          </div>
+
+          <div>
+            {" "}
+            <Products name="https://img.freepik.com/premium-photo/3d-land-with-mountain-isolated-piece-earth-land-green-field-generate-ai_39665-1054.jpg?w=2000" title="title" about="props pass howe hain yahan pr" />
+          </div>
+          <div>
+            {" "}
+            <Products name="https://img.freepik.com/premium-photo/3d-land-with-mountain-isolated-piece-earth-land-green-field-generate-ai_39665-1054.jpg?w=2000" title="title" about="props pass howe hain yahan pr" />
+          </div>
+
+          
+          
+        </div>
+      </section>
+
+      <section className="mt-5">
+        <OlxMarketing/>
+      </section>
+    <h1>footer</h1>
+      <section>
+        <Footer/>
       </section>
     </>
   );
